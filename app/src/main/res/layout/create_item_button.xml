@@ -1,0 +1,10 @@
+<com.getbase.floatingactionbutton.FloatingActionButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/editProfileButton"
+    android:elevation="4dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:layout_gravity="right|bottom"
+    app:fab_colorNormal="@color/colorPrimary" />

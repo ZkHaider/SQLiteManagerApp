@@ -49,8 +49,8 @@ public class FragmentDetailAdapter extends RecyclerView.Adapter<FragmentDetailAd
         if (mRowIntegerValues != null) {
             if (mRowIntegerValues.get(position) != null) {
                 int number = mRowIntegerValues.get(position);
-                Log.d(TAG, String.valueOf(number));
-                viewHolder.mTextView.setText(number);
+                Log.d(TAG, String.valueOf(Integer.toString(number)));
+                viewHolder.mTextView.setText(Integer.toString(number));
             }
         } else if (mRowNames != null) {
             if (mRowNames.get(position) != null) {
